@@ -1,0 +1,72 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.header h1{
+    display: inline;
+    position: relative;
+    left: 40%;
+}
+.header .gtc{
+    height: 70px;
+    width: 100px;
+    position: absolute;
+    right: 30px;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+}
+.items img{
+    height: 300px;
+    width: 300px;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.items span{
+    font-size: 36px;
+}
+.select{
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+}
+.count{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: large;
+}
+.bill{
+    display: flex;
+    flex-direction: row;
+    height: 620px;
+    margin-top: 100px;
+}
+.selected_items{
+    width: 50%;
+    border:2px solid black;
+}
+.total{
+    width: 50%;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.total #pay{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(189, 175, 175);
+    border-radius: 36px;
+}
+#pay h2{
+    text-align: center;
+    margin-top: 20px;
+}

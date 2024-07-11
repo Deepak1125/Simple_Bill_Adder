@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="biling.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="heading">Billing Counter</h1>
+        <a href="#bill"><button class="gtc">Go To Cart</button></a>
+    </div>
+    <div class="items">
+        <div class="maagi">
+            <img src="photos/maggi.webp" alt="">
+            <h3>Maggi <span class="cost">10</span><span class="dol">$</span></h3>
+            <div class="select">
+                <button>ADD TO CART</button>
+                <div class="count">0</div>
+            </div>            
+        </div>
+        <div class="masala">
+            <img src="photos/masala.webp" alt="">
+            <h3>Masala <span class="cost">15</span><span class="dol">$</span></h3>
+            <div class="select">
+                <button>ADD TO CART</button>
+                <div class="count">0</div>
+            </div>  
+        </div>
+        <div class="coke">
+            <img src="photos/coke.webp" alt="">
+            <h3>Coke <span class="cost">20</span><span class="dol">$</span></h3>
+            <div class="select">
+                <button>ADD TO CART</button>
+                <div class="count">0</div>
+            </div>  
+        </div>
+        <div class="maaza">
+            <img src="photos/MangoRaw.webp" alt="">
+            <h3>MangoRaw <span class="cost">25</span><span class="dol">$</span></h3>
+            <div class="select">
+                <button>ADD TO CART</button>
+                <div class="count">0</div>
+            </div>  
+        </div>
+    </div>
+    <div class="bill" id="bill">
+        <div class="selected_items">
+            <h2>Here are your items:</h2>
+            <ol class="list"></ol>
+        </div>
+        <div class="total">
+            <h2>Your Total:</h2>
+            <div id="pay">
+                <h2>Calculating....</h2>
+            </div>
+        </div>
+    </div>
+    <script src="biling.js"></script>
+</body>
+</html>
